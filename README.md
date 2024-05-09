@@ -11,6 +11,7 @@ heuristics that may help in minimising the casualty count. Reason out why you ha
 certain heuristics. Analyse the space and time complexity of your algorithm  
 
 **Heuristic Function:**
+
 For a particular location:
 
 H = (casualty_count/dist_from_cur_loc)*(1-(time_rem_after_reaching/orig_blast_time))
@@ -35,6 +36,7 @@ remaining time as a fraction of the total blast time. This gives higher priority
 less remaining time relative to their total blast duration.
 
 **Algorithm:**
+
 The provided code implements a Heuristic Search algorithm to find the path that minimises
 the total casualty count. Here's a breakdown of the algorithm:
 
