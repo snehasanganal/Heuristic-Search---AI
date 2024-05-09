@@ -1,4 +1,4 @@
-**Heurisctic Search**  
+**Heuristic Search**  
 
 **Problem Statement:**  
 
