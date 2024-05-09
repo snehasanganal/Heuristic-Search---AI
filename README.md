@@ -11,6 +11,9 @@ heuristics that may help in minimising the casualty count. Reason out why you ha
 certain heuristics. Analyse the space and time complexity of your algorithm  
 
 **Heuristic Function:**
+For a particular location:
+
+H = (casualty_count/dist_from_cur_loc)*(1-(time_rem_after_reaching/orig_blast_time))
 
 The heuristic function prioritizes locations with:
 
